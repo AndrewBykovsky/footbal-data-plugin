@@ -1,0 +1,132 @@
+.fdp-data-form {
+    padding: 20px;
+    margin: 40px 0;
+    border: 1px solid #000;
+    border-radius: 15px;
+    position: relative;
+}
+
+.fdp-data-form .error-message {
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: red;
+    background-color: #fcc2c2;
+}
+
+.fdp-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fdp-loader p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.league-list__holder {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fdp-data-form__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 0 30px 0;
+    border-bottom: 3px solid #000;
+}
+
+.fdp-data-form__top .dates {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.fdp-data-form__top .dates .dates-clear {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.fdp-data-form__top .dates .dates-clear:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.fdp-data-form__top .dates input {
+    padding: 5px 10px 5px 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.fdp-data-form__top .list-title {
+    font-weight: 500;
+}
+
+.league-list__holder select {
+    padding: 5px 10px 5px 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.fdp-data-table--js {
+    margin: 20px 0 0 0;
+}
+
+.fdp-data-form__bottom .results-holder-result {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fdp-data-form__bottom .results-holder {
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+}
+
+.fdp-data-form__bottom .results-holder-date {
+    margin: 20px 0 0 0;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.fdp-data-form__bottom .results-holder-date p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.fdp-data-form__bottom .results-holder:last-child {
+    border-bottom: none;
+}
+
+.fdp-data-form__bottom .results-holder img {
+    width: auto;
+    height: 65px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.fdp-data-form__bottom .results-holder .score {
+    font-size: 48px;
+    font-weight: 500;
+}
